@@ -1,7 +1,7 @@
 # Sales ETL Pipeline
 
-**Course:** Data Engineering and Cloud Computing
-**Group members:** Muganga Charles, Jonathan Kateega
+**Course:** Data Engineering and Cloud Computing \
+**Group members:** Charles Muganga (B35391), Jonathan Kateega (B34976)
 
 ## What this project does
 

@@ -1,0 +1,9 @@
+{
+  "bucket": "cloud_storage_bucket",
+  "key": "quarantine/sales/2026/rejected_sales.csv",
+  "content_type": "text/csv",
+  "size_bytes": 335,
+  "row_count": 3,
+  "md5_etag": "d45402801afa77d6b779fa192fb33961",
+  "uploaded_at_utc": "2026-10-15T13:00:11+00:00"
+}
