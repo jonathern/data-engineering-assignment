@@ -1,0 +1,9 @@
+{
+  "bucket": "cloud_storage_bucket",
+  "key": "sales/2026/cleaned_sales.csv",
+  "content_type": "text/csv",
+  "size_bytes": 6163,
+  "row_count": 102,
+  "md5_etag": "874b051da8e660e42e42b4de2e7cae40",
+  "uploaded_at_utc": "2026-10-15T13:00:11+00:00"
+}
