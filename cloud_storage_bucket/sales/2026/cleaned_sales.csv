@@ -1,0 +1,103 @@
+transaction_id,transaction_date,branch,product,category,quantity,unit_price,total_amount
+T001,2026-01-03,Kampala,Laptop,Electronics,2,2500000,5000000
+T002,2026-01-03,Mbarara,Printer,Electronics,3,650000,1950000
+T003,2026-01-04,Jinja,Office Chair,Furniture,5,350000,1750000
+T004,2026-01-05,Kampala,Desk,Furniture,2,480000,960000
+T005,2026-01-06,Mbarara,Keyboard,Accessories,10,75000,750000
+T006,2026-01-07,Jinja,Mouse,Accessories,15,45000,675000
+T007,2026-01-08,Kampala,Monitor,Electronics,4,850000,3400000
+T008,2026-01-08,Mbarara,Laptop,Electronics,1,2500000,2500000
+T009,2026-01-09,Jinja,Office Chair,Furniture,3,350000,1050000
+T010,2026-01-10,Kampala,Desk,Furniture,4,480000,1920000
+T011,2026-01-11,Mbarara,Keyboard,Accessories,8,75000,600000
+T012,2026-01-12,Jinja,Mouse,Accessories,20,45000,900000
+T013,2026-01-13,Kampala,Monitor,Electronics,3,850000,2550000
+T014,2026-01-14,Mbarara,Laptop,Electronics,2,2500000,5000000
+T015,2026-01-15,Jinja,Printer,Electronics,2,650000,1300000
+T016,2026-01-16,Kampala,Office Chair,Furniture,6,350000,2100000
+T017,2026-01-17,Mbarara,Desk,Furniture,3,480000,1440000
+T018,2026-01-18,Jinja,Keyboard,Accessories,12,75000,900000
+T019,2026-01-19,Kampala,Mouse,Accessories,18,45000,810000
+T020,2026-01-20,Mbarara,Monitor,Electronics,2,850000,1700000
+T021,2026-01-21,Jinja,Laptop,Electronics,1,2500000,2500000
+T022,2026-01-22,Kampala,Printer,Electronics,2,650000,1300000
+T023,2026-01-23,Mbarara,Office Chair,Furniture,4,350000,1400000
+T024,2026-01-24,Jinja,Desk,Furniture,2,480000,960000
+T025,2026-01-25,Kampala,Keyboard,Accessories,10,75000,750000
+T026,2026-01-26,Mbarara,Mouse,Accessories,15,45000,675000
+T027,2026-01-27,Jinja,Monitor,Electronics,3,850000,2550000
+T029,2026-01-29,Mbarara,Printer,Electronics,2,650000,1300000
+T030,2026-01-30,Jinja,Office Chair,Furniture,5,350000,1750000
+T031,2026-01-31,Kampala,Desk,Furniture,2,480000,960000
+T032,2026-02-01,Mbarara,Keyboard,Accessories,9,75000,675000
+T033,2026-02-02,Jinja,Mouse,Accessories,14,45000,630000
+T034,2026-02-03,Kampala,Monitor,Electronics,4,850000,3400000
+T035,2026-02-04,Mbarara,Laptop,Electronics,1,2500000,2500000
+T036,2026-02-05,Jinja,Printer,Electronics,3,650000,1950000
+T037,2026-02-06,Kampala,Office Chair,Furniture,5,350000,1750000
+T038,2026-02-07,Mbarara,Desk,Furniture,4,480000,1920000
+T039,2026-02-08,Jinja,Keyboard,Accessories,11,75000,825000
+T040,2026-02-09,Kampala,Mouse,Accessories,16,45000,720000
+T041,2026-02-10,Mbarara,Monitor,Electronics,2,850000,1700000
+T042,2026-02-11,Jinja,Laptop,Electronics,2,2500000,5000000
+T043,2026-02-12,Kampala,Printer,Electronics,1,650000,650000
+T044,2026-02-13,Mbarara,Office Chair,Furniture,3,350000,1050000
+T045,2026-02-14,Jinja,Desk,Furniture,3,480000,1440000
+T046,2026-02-15,Kampala,Keyboard,Accessories,7,75000,525000
+T047,2026-02-16,Mbarara,Mouse,Accessories,20,45000,900000
+T048,2026-02-17,Jinja,Monitor,Electronics,2,850000,1700000
+T049,2026-02-18,Kampala,Laptop,Electronics,1,2500000,2500000
+T050,2026-02-19,Mbarara,Printer,Electronics,2,650000,1300000
+T051,2026-02-20,Jinja,Office Chair,Furniture,4,350000,1400000
+T052,2026-02-21,Kampala,Desk,Furniture,2,480000,960000
+T053,2026-02-22,Mbarara,Keyboard,Accessories,10,75000,750000
+T054,2026-02-23,Jinja,Mouse,Accessories,13,45000,585000
+T055,2026-02-24,Kampala,Monitor,Electronics,3,850000,2550000
+T056,2026-02-25,Mbarara,Laptop,Electronics,2,2500000,5000000
+T057,2026-02-26,Jinja,Printer,Electronics,2,650000,1300000
+T058,2026-02-27,Kampala,Office Chair,Furniture,5,350000,1750000
+T059,2026-02-28,Mbarara,Desk,Furniture,3,480000,1440000
+T060,2026-03-01,Jinja,Keyboard,Accessories,8,75000,600000
+T061,2026-03-02,Kampala,Mouse,Accessories,17,45000,765000
+T062,2026-03-03,Mbarara,Monitor,Electronics,3,850000,2550000
+T063,2026-03-04,Jinja,Laptop,Electronics,1,2500000,2500000
+T064,2026-03-05,Kampala,Printer,Electronics,2,650000,1300000
+T065,2026-03-06,Mbarara,Office Chair,Furniture,4,350000,1400000
+T066,2026-03-07,Jinja,Desk,Furniture,2,480000,960000
+T067,2026-03-08,Kampala,Keyboard,Accessories,9,75000,675000
+T068,2026-03-09,Mbarara,Mouse,Accessories,18,45000,810000
+T069,2026-03-10,Jinja,Monitor,Electronics,2,850000,1700000
+T070,2026-03-11,Kampala,Laptop,Electronics,1,2500000,2500000
+T071,2026-03-12,Mbarara,Printer,Electronics,3,650000,1950000
+T072,2026-03-13,Jinja,Office Chair,Furniture,5,350000,1750000
+T073,2026-03-14,Kampala,Desk,Furniture,3,480000,1440000
+T074,2026-03-15,Mbarara,Keyboard,Accessories,10,75000,750000
+T075,2026-03-16,Jinja,Mouse,Accessories,15,45000,675000
+T076,2026-03-17,Kampala,Monitor,Electronics,4,850000,3400000
+T077,2026-03-18,Mbarara,Laptop,Electronics,2,2500000,5000000
+T078,2026-03-19,Jinja,Printer,Electronics,2,650000,1300000
+T079,2026-03-20,Kampala,Office Chair,Furniture,6,350000,2100000
+T080,2026-03-21,Mbarara,Desk,Furniture,4,480000,1920000
+T081,2026-03-22,Jinja,Keyboard,Accessories,12,75000,900000
+T082,2026-03-23,Kampala,Mouse,Accessories,16,45000,720000
+T083,2026-03-24,Mbarara,Monitor,Electronics,3,850000,2550000
+T084,2026-03-25,Jinja,Laptop,Electronics,1,2500000,2500000
+T085,2026-03-26,Kampala,Printer,Electronics,2,650000,1300000
+T086,2026-03-27,Mbarara,Office Chair,Furniture,3,350000,1050000
+T087,2026-03-28,Jinja,Desk,Furniture,2,480000,960000
+T088,2026-03-29,Kampala,Keyboard,Accessories,8,75000,600000
+T089,2026-03-30,Mbarara,Mouse,Accessories,14,45000,630000
+T090,2026-03-31,Jinja,Monitor,Electronics,3,850000,2550000
+T091,2026-04-01,Kampala,Laptop,Electronics,2,2500000,5000000
+T092,2026-04-02,Mbarara,Printer,Electronics,2,650000,1300000
+T093,2026-04-03,Jinja,Office Chair,Furniture,4,350000,1400000
+T094,2026-04-04,Kampala,Desk,Furniture,3,480000,1440000
+T095,2026-04-05,Mbarara,Keyboard,Accessories,10,75000,750000
+T096,2026-04-06,Jinja,Mouse,Accessories,15,45000,675000
+T097,2026-04-07,Kampala,Monitor,Electronics,3,850000,2550000
+T098,2026-04-08,Mbarara,Laptop,Electronics,1,2500000,2500000
+T099,2026-04-09,Jinja,Printer,Electronics,2,650000,1300000
+T100,2026-04-10,Kampala,Office Chair,Furniture,5,350000,1750000
+T102,2026-04-12,Jinja,Laptop,Electronics,1,2500000,2500000
+T103,2026-04-13,Kampala,Printer,Electronics,2,650000,1300000
+T104,2026-04-14,Mbarara,Monitor,Electronics,2,850000,1700000

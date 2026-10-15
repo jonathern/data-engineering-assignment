@@ -1,0 +1,4 @@
+transaction_id,transaction_date,branch,product,category,quantity,unit_price,rejection_reason
+T010,2026-01-10,Kampala,Desk,Furniture,4,480000,exact duplicate record
+T028,2026-01-28,Kampala,Laptop,Electronics,,2500000,missing critical value (id/date/quantity/price)
+T101,2026-04-11,Mbarara,Desk,Furniture,-2,480000,non-positive quantity
