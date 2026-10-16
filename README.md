@@ -1,7 +1,18 @@
 # Sales ETL Pipeline
 
 **Course:** Data Engineering and Cloud Computing \
-**Group members:** Charles Muganga (B35391), Jonathan Kateega (B34976)
+**Group members:** Charles Muganga (B35391), Jonathan Kateega (B34976) \
+**Repository link:** [Github](https://github.com/jonathern/data-engineering-assignment)
+
+## Table of Contents
+- [What this project does](#what-this-project-does)
+- [What's in each folder](#whats-in-each-folder)
+- [How to run it](#how-to-run-it)
+- [How we cleaned the data](#how-we-cleaned-the-data)
+- [How the folder acts like cloud storage](#how-the-folder-acts-like-cloud-storage)
+- [Results](#results)
+- [Challenges we faced](#challenges-we-faced)
+- [Tools used](#tools-used)
 
 ## What this project does
 
@@ -114,6 +125,15 @@ Total revenue across all 102 sales is **UGX 172,240,000**.
 - Kampala earned the most, even though Jinja sold more items, because Kampala sold more expensive electronics.
 - Electronics brought in almost two-thirds of all revenue.
 - Laptops alone brought in about 30% of the total.
+
+## Challenges we faced
+
+Building a robust pipeline meant solving a few tricky data and engineering problems:
+
+- **Preventing silent data corruption:** By default, tools like pandas will quietly turn legitimate text like `"NA"` (e.g., a branch named "North America") into missing `NaN` values. We had to carefully configure the extraction step to treat all incoming data as raw text first, preventing accidental data loss.
+- **Safely handling duplicates:** Simply "keeping the first" duplicate transaction ID can be dangerous. If the first row is corrupted (e.g., missing a quantity) and the second is valid, automation would discard the good data. We updated the logic to quarantine *all* duplicate IDs for manual audit, prioritizing data integrity over blind automation.
+- **Performance at scale:** Our initial custom date-parsing loop worked for small files, but would be a major bottleneck for millions of rows. We replaced it with pandas' vectorized `to_datetime` engine, which handles multiple date formats instantly and efficiently.
+- **Memory efficiency:** To simulate real cloud storage, we generate MD5 checksums for every saved file. Reading large files into memory all at once causes crashes, so we wrote the hashing function to process files in small, safe chunks (64KB at a time).
 
 ## Tools used
 
